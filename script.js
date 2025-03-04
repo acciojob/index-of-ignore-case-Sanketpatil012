@@ -1,6 +1,6 @@
 function indexOfIgnoreCase(s1, s2) {
-
-	 return  s1.toLowerCase().indexof(s2.toLowerCase())
+if (!subStr) return 0; // Edge case: Empty substring should return 0
+    return str.toLowerCase().indexOf(subStr.toLowerCase());
 
 }
 
