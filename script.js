@@ -1,9 +1,7 @@
 function indexOfIgnoreCase(s1, s2) {
-if (!subStr) return 0; // Edge case: Empty substring should return 0
-    return str.toLowerCase().indexOf(subStr.toLowerCase());
-
+    if (!s2) return 0; // Edge case: Empty substring should return 0
+    return s1.toLowerCase().indexOf(s2.toLowerCase());
 }
-
 // Please do not change the code below
 const s1 = prompt("Enter s1:");
 const s2 = prompt("Enter s2:");
